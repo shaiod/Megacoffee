@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -274,9 +274,10 @@ color:#fff; font-size:16px;text-align: center;}
 
 .content1>p:nth-child(2){font-size: 12px; line-height: 5;}
 
-.content2{width: 515px;
+.content2{width: 515px; height: 1700px;
 text-align: center; margin:0 auto;}
 
+.context_div>input[type="text"]{width: 473px; height: 150px;}
 .content2>p:first-child{font-size:15.5px; color:#222; margin-top:60px;}
 .content2>p span{font-size:15px; line-height: 4;}
 
@@ -748,6 +749,7 @@ left: 70px;
 bottom:0px;
 margin-bottom:200px;}
 
+.context_div>input[type="text"]{height: 150px;}
 .content2>p:first-child{font-size:20px; color:#222; margin-top:50px;}
 .content2>p span{font-size:14px; line-height: 4;}
 .content2>p:nth-child(2){font-weight: bold;}
@@ -899,7 +901,6 @@ margin-left:80px;
 font-size:12px;
 line-height: 1.5;
 color:#888;}
-
 
 
 /* footer */
@@ -1147,6 +1148,7 @@ text-align: center;
 margin-top: 60px;;
 margin-bottom:200px;}
 
+.context_div>input[type="text"]{width: 473px; height: 180px;}
 .content2>p:first-child{font-size:22px; color:#222; margin-top:100px;}
 .content2>p span{font-size:16px; line-height: 4;}
 .content2>p:nth-child(2){font-size:18px; font-weight: bold;}

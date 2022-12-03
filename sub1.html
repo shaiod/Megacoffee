@@ -90,7 +90,6 @@
     </ul>
     </li>
     </ul>
-    </label>
     </div>
     <div class="squ1"></div>
     <div>
@@ -179,13 +178,11 @@
                     <legend class="blind"></legend>
                     <div>
                     <label for="name">성명<span>*</span></label>
-                    <form action="/" method="post">
                     <input type="text" id="name" size="49" placeholder="성함을 입력하세요"/>
                     </div>
-                    </fieldset>
                     <div class="phone">
                     <label for="phone">전화번호<span>*</span></label>
-                    <select name="tel" class="tel">
+                    <select name="tel" class="tel" id="phone">
                         <option value="010">010</option>
                         <option value="011">011</option>
                         <option value="016">016</option>
@@ -214,27 +211,27 @@
                     </select>
                     </div>
                     <div><label for="company">단체/회사명<span>*</span></label>
-                    <input type="text" id="company" placeholder="단체/회사명을 입력하세요" size="49.5" /></div>
+                    <input type="text" id="company" placeholder="단체/회사명을 입력하세요" size="49" /></div>
                     <div><label for="product">품목<span>*</span></label>
-                    <input type="text" id="product" size="49.5" placeholder="품목을 입력하세요" /></div>
+                    <input type="text" id="product" size="49" placeholder="품목을 입력하세요" /></div>
                     <div><label for="subject">제목<span>*</span></label>
-                    <input type="text" id="subject" size="49.5" placeholder="제목을 입력하세요" /></div>
-                    <div><label for="con">내용<span>*</span></label>
-                    <input type="textarea" id="con"/>
+                    <input type="text" id="subject" size="49" placeholder="제목을 입력하세요" /></div>
+                    <div class="context_div"><label for="con">내용<span>*</span></label>
+                    <input type="text" id="con"/>
                     <p class="context">0/3900byte(한글 1300자, 영어4000자)</p></div>
                     <div><label for="suggest">제안서 첨부<span>*</span></label>
                     <input type="text" id="suggest" value="파일이름" size="43" class="file"
                     style="color:#777;font-size:12px;padding-left:15px;" disabled>
-                    <input type="button" id="suggest" value="업로드"></div>
+                    <input type="button" value="업로드"></div>
                     <div><label for="introduce">회사소개서 첨부</label>
                     <input type="text" id="introduce" value="파일이름"  size="43" class="file"
                     style="color:#777;font-size:12px;padding-left:15px;"
                     disabled >
-                    <input type="button" id="introduce" value="업로드" ></div>
+                    <input type="button" value="업로드" ></div>
                     <div class="hom"><label for="homepage">홈페이지 주소<span>*</span></label>
-                    <input type="text" id="homepage" placeholder="문의 제목을 입력하세요" size="49.5"/></div>
+                    <input type="text" id="homepage" placeholder="문의 제목을 입력하세요" size="49"/></div>
                     <div><input type="checkbox"  checked style="width:23px;height:23px;">
-                    <label class="an" for="button">개인정보 제공 및 활용에 대한 동의</label>
+                    <label class="an">개인정보 제공 및 활용에 대한 동의</label>
                     <input class="as" type="button" value="이용약관" /></div>
                     <div class="modal hidden">
                         <div class="modal__background"></div>
